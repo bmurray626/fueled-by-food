@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+    background-color: black;
+  }
+  
+ul {
+    list-style: none;
+}
+
+  .fork-logo {
+    height: 150px;
+  }
+  
+  .header-main-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-item {
+    text-decoration: none;
+    color: yellowgreen;
+    padding: 10px;
+  }
+  
+  .menu-item:hover {
+    text-decoration: underline;
+  }
+  
+  .menu-item:active {
+    outline: 1px dashed black;
+  }
+
+  .fbf-banner {
+      height: 100%;
+      width: auto;
+  }
+
+.welcome-message {
+    text-align: center;
+}
