@@ -1,3 +1,5 @@
+/* Index.HTML and corresponding pages collective CSS */
+
 body {
     background-color: yellowgreen;
 }
@@ -46,12 +48,13 @@ ul {
 /* Body */
 .banner {
     height: auto;
-    max-height: 500px;
+    max-height: 750px;
     width: 100%;
 }
 
 .welcome-message {
     text-align: center;
+    font-family: 'Luxurious Roman', cursive;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -86,4 +89,38 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+  }
+
+  /* Breakfast, Lunch, and Dinner specific CSS */
+
+  .breakfastbanner {
+    height: auto;
+    max-height: 750px;
+    width: 100%;
+  }
+
+  .lunchbanner {
+
+  }
+
+  .dinnerbanner {
+
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: white;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
   }
