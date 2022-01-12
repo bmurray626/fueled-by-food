@@ -1,112 +1,110 @@
 /* Index.HTML and corresponding pages collective CSS */
 
-body {
-    background-color: yellowgreen;
-}
-
 /* Header */
 header {
-    display: flex;
-    justify-content: space-around;
-    margin: 1rem 0;
-    background-color: black;
-  }
-  
-ul {
-    list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+  background-color: black;
 }
 
-  .fork-logo {
-    height: 150px;
-  }
-  
-  .header-main-menu {
-    display: flex;
-    align-items: center;
-  }
-  
-  .menu-item {
-    text-decoration: none;
-    color: yellowgreen;
-    padding: 10px;
-  }
-  
-  .menu-item:hover {
-    text-decoration: underline;
-  }
-  
-  .menu-item:active {
-    outline: 1px dashed black;
-  }
+ul {
+  list-style: none;
+}
 
-  .img {  
-      height: auto;
-      width: 100%;
-      max-width: 100%
-  }
+.fork-logo {
+  height: 150px;
+}
+
+.header-main-menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: yellowgreen;
+  padding: 10px;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}
+
+.menu-item:active {
+  outline: 1px dashed black;
+}
+
+.img {
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
 
 /* Body */
 .banner {
-    height: auto;
-    max-height: 750px;
-    width: 100%;
+  height: auto;
+  max-height: 750px;
+  width: 100%;
 }
 
 .welcome-message {
-    text-align: center;
-    font-family: 'Luxurious Roman', cursive;
-    font-size: x-large;
+  text-align: center;
+  font-family: "Luxurious Roman", cursive;
+  font-size: x-large;
 }
 
-input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
-  
-  input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
-  /* Breakfast, Lunch, and Dinner specific CSS */
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-  .breakfastbanner {
-    height: auto;
-    max-height: 750px;
-    width: 100%;
-  }
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
 
-  .lunchbanner {
-    height: auto;
-    max-height: 750px;
-    width: 100%;
-  }
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 
-  .dinnerbanner {
-    height: auto;
-    max-height: 750px;
-    width: 100%;
-  }
+/* Breakfast, Lunch, and Dinner specific CSS */
+
+.breakfastbanner {
+  height: auto;
+  max-height: 750px;
+  width: 100%;
+}
+
+.lunchbanner {
+  height: auto;
+  max-height: 750px;
+  width: 100%;
+}
+
+.dinnerbanner {
+  height: auto;
+  max-height: 750px;
+  width: 100%;
+}
 
 .breakfast-options {
   display: flex;
@@ -120,40 +118,133 @@ input[type=text], select, textarea {
   display: flex;
 }
 
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  height: 750px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  height: 750px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+}
+
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  height: 750px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+}
+
+.card4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  height: 750px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+}
+
+.price {
+  color: grey;
+  font-size: large;
+}
+
+.food-title {
+  font-size: xx-large;
+}
+
+.food-description {
+  font-size: medium;
+}
+
+/* High Resolution Devices and up */
+@media only screen and (min-width: 751px) {
+  body {
+    background-color: yellowgreen;
+  }
+}
+
+/* Medium Resolution Devices and up */
+@media only screen and (max-width: 769px) {
+  body {
+    background-color: violet;
+  }
+
+  .banner {
+    height: auto;
+    max-height: 400px;
+    width: 100%;
+  }
+
+  .welcome-message {
+    text-align: center;
+    font-family: "Luxurious Roman", cursive;
+    font-size: medium;
+  }
+
+  .breakfast-options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .lunch-options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dinner-options {
+    display: flex;
+    flex-direction: column;
+  }
+
   .card1 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    height: 750px;
+    height: 550px;
     margin: auto;
     text-align: center;
     font-family: arial;
     background-color: white;
   }
-
+  
   .card2 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    height: 750px;
+    height: 550px;
     margin: auto;
     text-align: center;
     font-family: arial;
     background-color: white;
   }
-
+  
   .card3 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    height: 750px;
+    height: 550px;
     margin: auto;
     text-align: center;
     font-family: arial;
     background-color: white;
   }
-
+  
   .card4 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    height: 750px;
+    height: 550px;
     margin: auto;
     text-align: center;
     font-family: arial;
@@ -162,5 +253,100 @@ input[type=text], select, textarea {
   
   .price {
     color: grey;
-    font-size: 22px;
+    font-size: medium;
   }
+  
+  .food-title {
+    font-size: large;
+  }
+  
+  .food-description {
+    font-size: small;
+  }
+}
+
+/* Low Resolution Devices and down */
+@media only screen and (max-width: 350px) {
+  body {
+    background-color: turquoise;
+  }
+
+  .banner {
+    height: auto;
+    max-height: 400px;
+    width: 100%;
+  }
+
+  .welcome-message {
+    text-align: center;
+    font-family: "Luxurious Roman", cursive;
+    font-size: small;
+  }
+  .breakfast-options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .lunch-options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dinner-options {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    height: 550px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: white;
+  }
+  
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    height: 550px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: white;
+  }
+  
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    height: 550px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: white;
+  }
+  
+  .card4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    height: 550px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: white;
+  }
+  
+  .price {
+    color: grey;
+    font-size: medium;
+  }
+  
+  .food-title {
+    font-size: large;
+  }
+  
+  .food-description {
+    font-size: small;
+  }
+}
