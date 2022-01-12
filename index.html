@@ -26,9 +26,7 @@
       </ul>
     </header>
     <main>
-      <div>
-        <img src="./Assests/FBFBanner.png" alt="Banner" class="fbf-banner" />
-      </div>
+        <img src="./Assests/FBFBanner.png" alt="" class="banner">
       <div class="welcome-message">
         <h1>Welcome to Fueled By Food</h1>
         <p>
@@ -42,6 +40,48 @@
           today and fill out the form below to have one of our associates get in
           contact with you.
         </p>
+      </div>
+      <div class="container">
+        <form action="https://formspree.io/f/mzbodpok" method="post">
+          <label for="fname">First Name* (required)</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            required
+            placeholder="Your first name.."
+          />
+
+          <label for="lname">Last Name* (required)</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            required
+            placeholder="Your last name.."
+
+          />
+
+          <label for="lname">Email</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="example@email.com"
+
+          />
+
+          <label for="lname">Phone Number</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="xxx-xxx-xxxx"
+          />
+
+          <input type="submit" value="Submit">
+
+        </form>
       </div>
     </main>
     <footer></footer>
