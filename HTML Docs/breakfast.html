@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta http-equiv="X-UZ-Compatible" content="ie=edge" />
-    <title>Fueled By Food</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Fueled By Food- Breakfast</title>
+    <link rel="stylesheet" href="/CSS/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <img class="fork-logo" src="./Assests/Fork.png" alt="Fork Logo" />
+      <img class="fork-logo" src="/Assests/Fork.png" alt="Fork Logo" />
       <ul class="header-main-menu">
         <li class="display-menu">
           <a href="index.html" class="menu-item"> Home </a>
@@ -26,7 +32,128 @@
       </ul>
     </header>
     <main>
-      
+      <img
+        src="/Assests/BreakfastBannerTE.jpg"
+        alt=""
+        class="breakfastbanner"
+      />
+      <div class="welcome-message">
+        <h1>Breakfast</h1>
+        <p>
+          We have all heard that saying from our parents about how the most
+          important meal of the day is breakfast... and they were right! In a
+          world where there are so many options of sugary cereals, bitter
+          fruits, and countless breakfast meats, we have come up with a line up
+          of delicious options for you to get your day started right! Take a
+          look at the most popular meals we have below and if you are
+          interested, please fill the form out below to get in contact with one
+          of our associates so we can develop a meal and payment plan that works
+          with your schedule and wallets.
+        </p>
+      </div>
+      <div class="breakfast-options">
+        <div class="card">
+          <img
+            src="/Assests/PancakesDE.jpg"
+            alt="Protein Pancakes"
+            style="width: 100%"
+          />
+          <h1>Protein Pancakes</h1>
+          <p class="price">$5.00</p>
+          <p>
+            Each serving of our Protein Pancakes are packed with a heaping scoop
+            of Vanilla Whey Protein and is served with Sugar-Free Syrup and
+            choice of fruit toppings
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="/Assests/EggtoastDC.jpg"
+            alt="Eggs and Avocado Toast"
+            style="width: 100%"
+          />
+          <h1>Eggs with Avocado Brioche Toast</h1>
+          <p class="price">$5.00</p>
+          <p>
+            A "millenial" favorite prepared with Eggs just the way you like it!
+            Pair this dish with some black coffee and some Sugar-Free and Flavor
+            Packed syrups and creamers.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="/Assests/OatmealPT.jpg"
+            alt="Oatmeal with Fruits"
+            style="width: 100%"
+          />
+          <h1>Overnight Oats with Choice of Toppings</h1>
+          <p class="price">$5.00</p>
+          <p>
+            Our Overnight Oats are made with Vanilla Almond Milk to give them an
+            extra creamy taste because no one ever said how much they love their
+            oats made with water! Add fruit, a scoop of protein, and nut-butters
+            for a truly filling breakfast!
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="/Assests/BurritoPT.jpg"
+            alt="Burrito and Sandwich"
+            style="width: 100%"
+          />
+          <h1>Breakfast Burrito or Breakfast Sandwich with Spicy Southwest Sauce</h1>
+          <p class="price">$5.00</p>
+          <p>
+            For the truly adventerous eater, we offer your choice of a Southwest
+            Burrito or Sandwich. Scrambled eggs are prepared with sharp cheddar
+            cheese, crispy hashbrowns, and your choice of bacon, ham, or
+            sausage. Don't forget to dip it in our Spicy Southwest Sauce for an
+            added kick in the morning!
+          </p>
+        </div>
+      </div>
+      <div class="welcome-message">
+        <h1>Hungry Yet??? You know what to do!  Fill out our form below and we will get in contact to get your meals prepped to meet your fitness goals!</h1>
+      </div>
+      <div class="container">
+        <form action="https://formspree.io/f/mzbodpok" method="post">
+          <label for="fname">First Name* (required)</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            required
+            placeholder="Your first name.."
+          />
+
+          <label for="lname">Last Name* (required)</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            required
+            placeholder="Your last name.."
+          />
+
+          <label for="lname">Email</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="example@email.com"
+          />
+
+          <label for="lname">Phone Number</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="xxx-xxx-xxxx"
+          />
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
     </main>
     <footer></footer>
   </body>
