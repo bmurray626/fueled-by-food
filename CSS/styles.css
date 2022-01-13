@@ -1,44 +1,17 @@
 /* Index.HTML and corresponding pages collective CSS */
 
-/* Header */
-header {
-  display: flex;
-  justify-content: space-around;
-  margin: 1rem 0;
-  background-color: black;
-}
-
-ul {
-  list-style: none;
-}
-
-.fork-logo {
-  height: 150px;
-}
-
-.header-main-menu {
-  display: flex;
-  align-items: center;
-}
-
-.menu-item {
-  text-decoration: none;
-  color: yellowgreen;
-  padding: 10px;
-}
-
-.menu-item:hover {
-  text-decoration: underline;
-}
-
-.menu-item:active {
-  outline: 1px dashed black;
+body {
+  background-color: yellowgreen;
 }
 
 .img {
   height: auto;
   width: 100%;
   max-width: 100%;
+}
+
+.nav-item {
+  color: black;
 }
 
 /* Body */
@@ -193,8 +166,8 @@ input[type="submit"]:hover {
 
 /* Medium Resolution Devices and up */
 @media only screen and (max-width: 769px) {
-  body {
-    background-color: violet;
+  .navbar-brand {
+    display: none;
   }
 
   .banner {
@@ -286,8 +259,8 @@ input[type="submit"]:hover {
 
 /* Low Resolution Devices and down */
 @media only screen and (max-width: 350px) {
-  body {
-    background-color: turquoise;
+  .navbar-brand {
+    display: none;
   }
 
   .banner {
@@ -306,13 +279,13 @@ input[type="submit"]:hover {
     align-items: center;
     justify-content: center;
   }
-  
+
   .lunch-options {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
+
   .dinner-options {
     display: flex;
     align-items: center;
