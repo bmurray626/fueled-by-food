@@ -108,60 +108,67 @@ input[type="submit"]:hover {
 
 .breakfast-options {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
 .lunch-options {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
 .dinner-options {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
 .card1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-width: 200px;
   max-width: 300px;
   height: 750px;
   text-align: center;
   font-family: arial;
   background-color: white;
-  margin: 0 20px;
+  margin: 15px 20px;
 }
 
 .card2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-width: 200px;
   max-width: 300px;
   height: 750px;
   text-align: center;
   font-family: arial;
   background-color: white;
-  margin: 0 20px;
+  margin: 15px 20px;
 }
 
 .card3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-width: 200px;
   max-width: 300px;
   height: 750px;
   text-align: center;
   font-family: arial;
   background-color: white;
-  margin: 0 20px;
+  margin: 15px 20px;
 }
 
 .card4 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-width: 200px;
   max-width: 300px;
   height: 750px;
   text-align: center;
   font-family: arial;
   background-color: white;
-  margin: 0 20px;
+  margin: 15px 20px;
 }
 
 .price {
@@ -170,7 +177,7 @@ input[type="submit"]:hover {
 }
 
 .food-title {
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .food-description {
@@ -315,7 +322,7 @@ input[type="submit"]:hover {
   .card1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    height: 550px;
+    height: 700px;
     text-align: center;
     font-family: arial;
     background-color: white;
@@ -325,7 +332,7 @@ input[type="submit"]:hover {
   .card2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    height: 550px;
+    height: 700px;
     text-align: center;
     font-family: arial;
     background-color: white;
@@ -335,7 +342,7 @@ input[type="submit"]:hover {
   .card3 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    height: 550px;
+    height: 700px;
     text-align: center;
     font-family: arial;
     background-color: white;
@@ -345,7 +352,7 @@ input[type="submit"]:hover {
   .card4 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    height: 550px;
+    height: 700px;
     text-align: center;
     font-family: arial;
     background-color: white;
