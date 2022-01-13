@@ -184,21 +184,20 @@ input[type="submit"]:hover {
 
   .breakfast-options {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-  }
+    justify-content: center;  }
 
   .lunch-options {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
 
   .dinner-options {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
