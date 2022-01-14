@@ -145,7 +145,7 @@
       </div>
       <div class="container">
         <form action="https://formspree.io/f/mzbodpok" method="post">
-          <label for="fname">First Name* (required)</label>
+          <label for="fname">First Name <label class="required">*</label></label>
           <input
             type="text"
             id="fname"
@@ -154,7 +154,7 @@
             placeholder="Your first name.."
           />
 
-          <label for="lname">Last Name* (required)</label>
+          <label for="lname">Last Name <label class="required">*</label></label>
           <input
             type="text"
             id="lname"
@@ -163,7 +163,7 @@
             placeholder="Your last name.."
           />
 
-          <label for="lname">Email or Phone Number* (required)</label>
+          <label for="lname">Email or Phone Number <label class="required">*</label></label>
           <input
             type="text"
             id="email"
@@ -171,6 +171,7 @@
             required
             placeholder="example@email.com or xxx-xxxx-xxxx"
           />
+          <p class="required">* required field</p>
           <input type="submit" value="Submit" />
         </form>
       </div>
