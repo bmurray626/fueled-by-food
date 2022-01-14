@@ -69,6 +69,10 @@ input[type="submit"]:hover {
   padding: 20px;
 }
 
+.required {
+  color: red;
+}
+
 /* Breakfast, Lunch, and Dinner specific CSS */
 
 .breakfastbanner {
