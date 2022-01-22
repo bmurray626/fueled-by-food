@@ -172,14 +172,14 @@ input[type="submit"]:hover {
 }
 
 /* High Resolution Devices and up */
-@media only screen and (min-width: 751px) {
+@media only screen and (min-width: 770px) {
   body {
     background-color: yellowgreen;
   }
 }
 
 /* Medium Resolution Devices and up */
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) {
   .navbar-brand {
     display: none;
   }
@@ -281,7 +281,7 @@ input[type="submit"]:hover {
 }
 
 /* Low Resolution Devices and down */
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 480px) {
   .navbar-brand {
     display: none;
   }
